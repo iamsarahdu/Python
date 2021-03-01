@@ -88,12 +88,40 @@ temp = temp + 1
 
     
 ### Homework ###
- 
-myList = [5, 10, 40, 20, 20, 20, 25, 40, 20]
 
 # Replace only the first occurance of 20 with 100
 #Result
 # >>>[5, 10, 40, 100, 100, 100, 25, 40, 100]
+
+
+
+
+# for n, i in enumerate(myList[:4]):
+#     if i == 20:
+#         myList[n] = 100 
+        
+# print(myList)
+
+# Get the first index of 20
+
+# fruitList = ["mango", "apple", "banana", "cherry", "apple", "apple", "apple", "apple"]
+
+# print(fruitList.index("apple"))
+    
+# myList = [1, 2, 3, 4, 5, 3, 6, 3]
+
+# print(myList.index(3))
+
+#list.index method returns the index of the FIRST occurance.
+
+myList = [5, 10, 40, 10, 20, 20, 25, 20, 40, 20]
+
+firstOccuranceIndex = myList.index(20) # The index of the first occurance of number 20
+
+myList[firstOccuranceIndex] = 100
+
+print(myList)
+
 
 
 
