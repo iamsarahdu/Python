@@ -91,4 +91,4 @@ for f in foods:
     for d in drinks:
         #We don't want to print this because they start with the same letter.
         if f[0].upper() != d[0].upper():
-            print(f, d)
+            print(f, d)                 
